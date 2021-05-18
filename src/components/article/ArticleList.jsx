@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Article from './Article';
 
 const ArticleList = ({ articles }) => (
-    <ul aria-label = 'articles'>
+    <ul aria-label = 'article-list'>
         {articles.map((article) => (
             <li key={article.title}>
                 <Article

@@ -36,7 +36,7 @@ export default class TopHeadlineContainer extends Component {
 
     render() {
         const { loading, articles, topic } = this.state;
-
+        console.log(articles);
         if (loading) return <h1>Loading...</h1>
 
         return (
